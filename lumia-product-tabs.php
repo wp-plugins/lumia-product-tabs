@@ -3,22 +3,22 @@
  * Plugin Name: Lumia Product Tabs
  * Plugin URI: http://weblumia.com/lumia-product-tabs/
  * Description: Adding multiple custom tabs in woocommerce product details page.
- * Author: Weblumia
+ * Author: Jinesh.P.V
  * Author URI: http://weblumia.com
- * Version: 2.0.0
- * Tested up to: 4.1
+ * Version: 2.1
+ * Tested up to: 4.2.2
  * Text Domain: lumia-product-tabs
  * Domain Path: /i18n/languages/
  *
- * Copyright: (c) 2014-2015 Weblumia.com, Inc. (info@weblumia.com)
+ * Copyright: (c) 2015-2016 Jinesh.P.V (email: jinuvijay5@gmail.com)
  *
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  *
  * @package     Lumia Product Tabs
- * @author      Weblumia
+ * @author      Jinesh.P.V
  * @category    Plugin
- * @copyright   Copyright (c) 2014-2015, Weblumia.
+ * @copyright   Copyright (c) 2015-2016 Jinesh.P.V (email: jinuvijay5@gmail.com)
  * @license     http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License v3.0
  */
 
@@ -68,7 +68,7 @@ class LumiaProductTabs {
 	/**
 	 * Install woocommerce custom product tabs
 	 * 
-	 * @since 2.0.0
+	 * @since 2.1
 	 */
 	 
 	private function install_plugin() {
@@ -87,7 +87,7 @@ class LumiaProductTabs {
 	/**
 	 * Load text domain for lumia-product-tabs
 	 *
-	 * @since 2.0.0
+	 * @since 2.1
 	 */
 	 
 	public function load_text_domain() {
@@ -100,7 +100,7 @@ class LumiaProductTabs {
 	/**
 	 * admin init woocommerce lumia product tabs
 	 * 
-	 * @since 2.0.0
+	 * @since 2.1
 	 */
 	 
 	public function woocommerce_admin_init() {
@@ -120,7 +120,7 @@ class LumiaProductTabs {
 	/**
 	 * Add the custom product tab
 	 *
-	 * @since 2.0.0
+	 * @since 2.1
 	 */
 	 
 	public function add_lumia_product_custom_tabs( $tabs ) {
@@ -145,7 +145,7 @@ class LumiaProductTabs {
 	/**
 	 * lumia product tab panel content for the given tab
 	 *
-	 * @since 2.0.0
+	 * @since 2.1
 	 */
 	 
 	public function lumia_product_tabs_panel_content( $key, $tab ) {
@@ -161,7 +161,7 @@ class LumiaProductTabs {
 	/**
 	 * load woocommerce admin scripts
 	 * 
-	 * @since 2.0.0
+	 * @since 2.1
 	 */
 	 
 	public function load_woocommerce_admin_scripts() {
@@ -172,7 +172,7 @@ class LumiaProductTabs {
 	/**
 	 * Adding a new tab to the product admin interface
 	 * 
-	 * @since 2.0.0
+	 * @since 2.1
 	 */
 	 
 	public function lumia_product_admin_tab_html() {
@@ -183,7 +183,7 @@ class LumiaProductTabs {
 	/**
 	 * Adding a new tab content to the product admin interface
 	 * 
-	 * @since 2.0.0
+	 * @since 2.1
 	 */
 	 
 	public function lumia_product_admin_tab_content_html() {
@@ -234,7 +234,7 @@ class LumiaProductTabs {
 	/**
 	 * Saves the data inputed into the product boxes, as post meta data
 	 * 
-	 * @since 2.0.0
+	 * @since 2.1
 	 */
 	 
 	public function lumia_product_tab_save_data( $post_id, $post ) {
@@ -315,7 +315,7 @@ class LumiaProductTabs {
 	/**
 	 * Checks if WooCommerce is active
 	 *
-	 * @since  2.2
+	 * @since  2.1
 	 * @return bool true if WooCommerce is active, false otherwise
 	 */
 	 

@@ -1,10 +1,11 @@
 === Lumia Product Tabs ===
-Contributors: Weblumia
+Contributors: Jinesh.P.V
 Tags: woocommerce, product tabs, lumia product tabs
+Version: 2.2
 Requires at least: 3.8
-Tested up to: 4.1
-Requires WooCommerce at least: 2.0
-Tested WooCommerce up to: 2.2
+Tested up to: 4.2.2
+Requires WooCommerce at least: 2.2
+Tested WooCommerce up to: 2.3.11
 Stable tag: 2.0.0
 
 This plugin extends the WooCommerce e-commerce plugin by allowing a custom product tab to be created with arbitrary content.
@@ -43,3 +44,5 @@ To easily add multiple tabs, share tabs between products, and more features.
 
 = 2.0.0 - 2015.02.10 =
  * Initial release
+= 2.1 - 2015.07.04 =
+ * Second Updation
