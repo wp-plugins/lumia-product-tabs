@@ -1,5 +1,5 @@
 === Lumia Product Tabs ===
-Contributors: Jinesh.P.V
+Contributors: pv.jinesh
 Tags: woocommerce, product tabs, lumia product tabs
 Version: 2.2
 Requires at least: 3.8
